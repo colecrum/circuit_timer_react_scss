@@ -1,0 +1,172 @@
+body {
+  background: url("https://media.istockphoto.com/vectors/vintage-emblem-for-boxing-vector-id859410740?b=1&k=6&m=859410740&s=612x612&w=0&h=LBiEG_wLNb6fuB-Mf3N9yX7qKqOvtJdhU8rMLDCwtgM=");
+  text-align: center;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  height: auto;
+  width: 950px;
+  height: 400px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1em;
+  border-radius: 5px;
+  border: 3px solid blue;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.sub-main {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.left {
+  width: 262px;
+  height: 100%;
+}
+
+.right {
+  width: 650px;
+  height: 100%;
+}
+
+.session-header {
+  font-size: 40px;
+}
+
+.break-header {
+  font-size: 40px;
+}
+
+.fa {
+  padding: 14px;
+  cursor: pointer;
+}
+
+.fa-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+}
+
+.fa-plus {
+  color: #66ff00;
+  border: 2px solid;
+}
+
+.session-header {
+  color: green;
+}
+
+.break-header {
+  color: red;
+  padding-top: 20px;
+}
+
+hr {
+  height: 2px;
+  background-color: blue;
+}
+
+.shootMe {
+  padding: 4px;
+  text-align: center;
+  width: 100px;
+  font-size: 30px;
+}
+
+.fa-minus {
+  color: #de1738;
+  border: 2px solid;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.timer-header {
+  font-size: 40px;
+}
+
+#time-left {
+  font-size: 100px;
+}
+
+#timer-label {
+  font-size: 30px;
+}
+
+.control-button {
+  background: white;
+  outline: none;
+  border: none;
+  color: green;
+  cursor: pointer;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  #container {
+    transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+}
+#footer {
+  background-color: black;
+}
+
+#contact-section {
+  color: black;
+  text-align: center;
+  background-color: white;
+}
+
+.contact-links {
+  height: auto;
+  width: 100%;
+}
+
+.contact-img {
+  height: 50px;
+  width: 50px;
+  padding: 15px;
+}
+
+#git-logo {
+  height: 50px;
+  width: 75px;
+}
