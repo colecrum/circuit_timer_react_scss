@@ -1,8 +1,14 @@
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   background: url("https://media.istockphoto.com/vectors/vintage-emblem-for-boxing-vector-id859410740?b=1&k=6&m=859410740&s=612x612&w=0&h=LBiEG_wLNb6fuB-Mf3N9yX7qKqOvtJdhU8rMLDCwtgM=");
   text-align: center;
+  position: relative;
 }
 
+/* MAIN --------------------------------------------- */
 div {
   box-sizing: border-box;
 }
@@ -28,6 +34,17 @@ div {
   border: 3px solid blue;
 }
 
+@media screen and (max-width: 600px) {
+  #container {
+    height: auto;
+  }
+
+  .overlay {
+    width: 90%;
+    height: auto;
+    display: block;
+  }
+}
 .main {
   display: flex;
   flex-direction: row;
@@ -52,6 +69,17 @@ div {
   height: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .left {
+    width: 100%;
+    height: auto;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+  }
+}
 .session-header {
   font-size: 40px;
 }
@@ -145,6 +173,8 @@ hr {
     -o-transform: scale(0.8);
   }
 }
+/* SIGN-OFF --------------------------------------------*/
+/*designed by & contact*/
 #footer {
   background-color: black;
 }
@@ -153,6 +183,7 @@ hr {
   color: black;
   text-align: center;
   background-color: white;
+  min-height: 33vh;
 }
 
 .contact-links {
@@ -169,4 +200,10 @@ hr {
 #git-logo {
   height: 50px;
   width: 75px;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-links {
+    width: 100%;
+  }
 }
