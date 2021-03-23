@@ -34,17 +34,6 @@ div {
   border: 3px solid blue;
 }
 
-@media screen and (max-width: 600px) {
-  #container {
-    height: auto;
-  }
-
-  .overlay {
-    width: 90%;
-    height: auto;
-    display: block;
-  }
-}
 .main {
   display: flex;
   flex-direction: row;
@@ -69,17 +58,6 @@ div {
   height: 100%;
 }
 
-@media screen and (max-width: 600px) {
-  .left {
-    width: 100%;
-    height: auto;
-  }
-
-  .right {
-    width: 100%;
-    height: auto;
-  }
-}
 .session-header {
   font-size: 40px;
 }
@@ -164,6 +142,47 @@ hr {
   margin: 5px;
 }
 
+@media screen and (max-width: 600px) {
+  #container {
+    height: auto;
+  }
+
+  .overlay {
+    width: 90%;
+    height: auto;
+    display: block;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  #container {
+    height: auto;
+  }
+
+  .overlay {
+    width: 90%;
+    height: auto;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+  }
+}
 @media screen and (max-width: 500px) {
   #container {
     transform: scale(0.8);
@@ -203,6 +222,11 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
+  .contact-links {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) and (orientation: landscape) {
   .contact-links {
     width: 100%;
   }
