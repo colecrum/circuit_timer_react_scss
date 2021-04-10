@@ -192,6 +192,26 @@ hr {
     -o-transform: scale(0.8);
   }
 }
+@media screen and (max-width: 1000px) {
+  #container {
+    height: auto;
+  }
+
+  .overlay {
+    width: 90%;
+    height: auto;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+  }
+
+  .right {
+    width: 100%;
+    height: auto;
+  }
+}
 /* SIGN-OFF --------------------------------------------*/
 /*designed by & contact*/
 #footer {
